@@ -113,6 +113,7 @@ const Calendar = (props) => {
     });
   });
   console.log(Array1);
+  console.log("helllo");
   // ** calendarOptions(Props)
   const calendarOptions = {
     events: Array1?.length ? Array1 : [],
